@@ -7,15 +7,6 @@
 /* debug */
 
 
-.debug main{
- background-color: pink;
- height: 600px;
-}
-
-.debug .user-camera{
-  background-color: aqua;
-}
-
 /* css */
 
 html {
@@ -36,7 +27,7 @@ footer{
 }
 
 header{
-  background-color: #000;
+  background-color: pink;
   top: 0;
   left: 0;
 }
@@ -51,7 +42,10 @@ footer{
 /* main */
 
 main{
+  height: 100%;
   padding: 100px 20px;
+  overflow: auto;
+  background-color: #000;
 }
 
 .video-call{
@@ -63,8 +57,7 @@ main{
 .user-camera{
   height: 150px;
   width: 250px;
-  padding: 10px;
-  margin: 0 -10px;
+  padding: 5px 5px;
   position: relative;
 }
 
@@ -81,10 +74,13 @@ main{
   padding: 5px;
   background-color: rgba( 0, 0, 0, 0.7);
   position: absolute;
-  left: 10px;
-  bottom: 10px;
+  left: 5px;
+  bottom: 5px;
 }
 
 .user-name .microphone{
   display: inline-block;
 }
+
+
+/* footer*/
